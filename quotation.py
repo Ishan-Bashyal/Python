@@ -57,7 +57,7 @@ print(k.center(11,'*'))
 
 #if string is even (python is even n=6)
 #left side= n+1/2
-#right side= n+1/2
+#right side= n-1/2
 
 
 l="python"
