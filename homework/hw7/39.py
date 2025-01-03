@@ -2,10 +2,14 @@
 
 oddsum = 0
 evensum = 0
-for i in range(1,100):
+i = 1
+
+while i < 100:
     if i % 2 == 0:
-        evensum +=i
-    elif i % 2 != 0:
+        evensum += i
+    else:
         oddsum += i
+    i += 1
+
 print(f"Even sum is: {evensum}")
 print(f"Odd sum is: {oddsum}")

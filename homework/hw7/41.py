@@ -2,10 +2,14 @@
 
 num = input("Enter a number: ")
 arm = 0
-for i in range(len(num)):
-    arm += int(num[i])**len(num)
+length = len(num)
+i = 0
+
+while i < length:
+    arm += int(num[i])**length
+    i += 1
 
 if int(num) == arm:
-    print("{num} is Armstrong Number.")
+    print(f"{num} is Armstrong Number.")
 else:
-    print("{num} is not a Armstrong number.")
+    print(f"{num} is not an Armstrong number.")
